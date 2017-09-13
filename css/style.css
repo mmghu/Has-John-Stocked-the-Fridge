@@ -9,8 +9,9 @@ html,body {
     width: 100%;
     height: 100%;
 
-    background-image: url("../images/empty fridge.png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     display: flex;
     flex-direction: column;
@@ -18,6 +19,18 @@ html,body {
     align-items: center;
     justify-content: center;
 }
+
+    .bg-1 {
+        background-image: url("../images/emptyfridge1.png");
+    }
+
+    .bg-2 {
+        background-image: url("../images/emptyfridge2.jpg");
+    }
+
+    .bg-3 {
+        background-image: url("../images/emptyfridge3.png");
+    }
 
 .panel {
     background-color: white;
